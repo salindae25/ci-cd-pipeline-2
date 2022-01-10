@@ -1,12 +1,12 @@
 module.exports = {
   branches: [
-    "release",
+    "release/*",
     {
-      name: "develop",
+      name: "staging",
       prerelease: true,
     },
     {
-      name: "staging",
+      name: "develop",
       prerelease: true,
     },
   ],
