@@ -4,7 +4,7 @@
   "description": "test semantic release",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/salindae25/ci-cd-pipeline-2/issues"
   },
-  "homepage": "https://github.com/salindae25/ci-cd-pipeline-2#readme"
+  "homepage": "https://github.com/salindae25/ci-cd-pipeline-2#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
