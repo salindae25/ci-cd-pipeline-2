@@ -1,0 +1,19 @@
+{
+  "name": "ci-cd-pipeline-2",
+  "version": "0.0.0-semantic-release",
+  "description": "test semantic release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/salindae25/ci-cd-pipeline-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salindae25/ci-cd-pipeline-2/issues"
+  },
+  "homepage": "https://github.com/salindae25/ci-cd-pipeline-2#readme"
+}
